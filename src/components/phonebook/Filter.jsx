@@ -1,9 +1,8 @@
+const Filter = ({ value, onChange }) => (
+  <label className={"form"}>
+    Find contacts by name
+    <input value={value} onChange={onChange} />
+  </label>
+);
 
-const Filter = ( {value, onChange} ) => (
-    <label className={'form'}>Find contacts by name
-
-        <input value={value} onChange={onChange}/>
-    </label>
-)
-
-export default Filter
+export default Filter;
